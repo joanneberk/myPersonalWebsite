@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <script src="java.js"></script>
+    <title>Joanne Tran</title>
+</head>
+<body>
+    <header>
+        <a href='index.html' class="logo"><img src='joannelogo.png' class="logo"></a>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="work.html" >Work</a></li>
+            <li><a href="contact.html" class="active" style="margin-right: 25px;">Contact</a></li>
+        </ul>
+    </header>
+    <section class="joanne">
+        <h1>Thanks For Reaching Out</h1>
+        <h2>How Can I Help?</h2>
+    </section>
+        <section class="background">
+            <div class="flex">
+                <div class="contactForm">
+                    <h5 id="messageHead">Shoot me a message</h5>
+                    <form action="https://formsubmit.co/tranjoanne72@yahoo.com" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="msg">Message</label>
+                        <textarea class="messageBox"for="text" id="msg" name="msg" required></textarea>
+                        <button type='submit' class="submitButton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <div>
+            <img src="joannelogo.png" class="logo">
+            <p>COPYRIGHT © 2023 Joanne Tran.</p>
+        </div>
+    </footer>
+</body>
+</html>

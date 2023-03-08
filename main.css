@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    flex-direction:row;
+    top:30px;
+    left:0;
+    width:100%;
+    padding:30px,100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+}
+
+header .logo {
+    margin-left: 25px;
+    margin-top:-2px;
+}
+
+.logo{
+    width: 25px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style-type: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    transition: background-color .25s, box-shadow .25s, border-radius .25s;
+}
+
+header ul li a:hover,header ul li a.active{
+    background-color: brown;
+    box-shadow: 0 0.5em 0.5em -.4em white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.joanne{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    
+
+    background-attachment: fixed;
+    background-image: url("backgroundimage.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.joanne h2 {
+    font-size: 26px;
+    color: rgb(218, 112, 112);
+}
+
+.joanne h1 {
+    font-size: 60px;
+}
+
+
+.background {
+    width: 100%;
+    background-color: #212121;
+    min-height: 2329px;
+}
+
+.background h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.headshot {
+    width: 100%;
+    height: 380.25px;
+    object-fit: cover;
+    object-position: -5% 20%;
+    float:left;
+    opacity: 0.98;
+    border-radius: 24px 0px;
+
+}
+
+.inner1 {
+    color: white;
+    width: 580px;
+    height: 366px;
+    margin-left: 50px;
+}
+
+.inner1 h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.inner1 h4{
+    color: rgb(208, 86, 86);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.inner2 {
+    display:flex;
+    width:100%;
+    max-height: 500px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+div img + div {
+    width: 300.98px;
+    position: absolute;
+    height: 380.25px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px 0px;
+    top: 10px;
+    right: 10px;
+}
+
+footer div {
+    width: 100%;
+    height: 156px;
+    background-color: #292C36;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 2%;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+    padding-left: 5%;
+    padding-right:5%;
+    color: white;
+    /* border: solid white 3px; */
+}
+
+.title {
+    padding-top:120px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.title2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-bottom: 50px;
+}
+
+.portButton {
+    background-color:rgb(208, 86, 86); 
+    text-transform: uppercase; 
+    font-size: 20px; 
+    font-weight: 600;
+    padding: 10px 100px;
+    margin-left: 40%; 
+    margin-top: 2%;
+    color: white;
+    transition: background-color .25s, box-shadow .25s, transform .25s;
+    border: none;
+    border-radius: 8px;
+}
+
+.portButton:hover{
+    background-color:rgb(176, 73, 73);
+    box-shadow: 0 0.5em 0.5em -.4em white;
+    transform: translatey(-.25em);
+    cursor: pointer;
+}
+
+.portImg{
+    width: 380px; 
+    height: 283px; 
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.portImgBlock{
+    background-color: #292C36;
+    border-radius: 10px;
+    min-height: 420px;
+}
+
+.portText {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    max-width: 380px;
+}
+
+.contact{
+    background-color: #292C36;
+    width: 980px;
+    height: 277px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    padding-left: 5%;
+    padding-right:5%;
+    color: white;
+    border: solid white 2px;
+    margin-left: 16%;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+#linkedin{
+    max-width: 15%;
+    border-radius: 22px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    filter: invert(58%) sepia(0%) saturate(0%) hue-rotate(356deg) brightness(98%) contrast(92%);
+    margin-top: 2%;
+    animation-name: linkedin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: filter .25s, box-shadow .25s, transform .25s;
+}
+
+@keyframes linkedin {
+    20% { 
+        transform: rotate(0deg); 
+    } 
+    40%{ 
+        transform: rotate(10deg); 
+    } 
+    60%{
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+#linkedin:hover{
+    filter: invert(47%) sepia(19%) saturate(1994%) hue-rotate(315deg) brightness(91%) contrast(77%);
+    box-shadow: 0 0.5em 0.5em -.4em white;
+    transform: translatey(-.2em);
+    cursor: pointer;
+}

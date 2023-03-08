@@ -1,0 +1,3 @@
+portfolio(){
+    location.href="#work";
+};
