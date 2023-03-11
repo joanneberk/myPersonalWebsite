@@ -350,7 +350,7 @@ footer div {
         margin-left: 21%;
     }
     .contact{
-        margin-top: -50px;
+        margin-top: -90px;
         text-align: center;
     }
     .contact2{
@@ -378,6 +378,8 @@ footer div {
     }
     .inner1 h4, h3{
         text-align: center;
-
+    }
+    footer div {
+        padding-top: 40px;
     }
 }

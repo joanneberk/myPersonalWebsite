@@ -179,3 +179,26 @@ label {
     margin-left: 36%; 
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px){
+    .joanne h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    #messageHead{
+        font-size: 97%;
+        margin-left: 60px;
+    }
+    label{
+        font-size: 90%;
+    }
+    .submitButton {
+        font-size: 80%;
+    }
+    footer div {
+        padding-top: 40px;
+    }
+    .background{
+        margin-bottom:-85px;
+    }
+}

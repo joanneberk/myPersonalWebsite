@@ -189,3 +189,18 @@ button:hover{
     transform: translatey(-.1em);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+    .joanne h1 {
+        font-size: 40px;
+    }
+    .portImgBlock{
+        margin-bottom: 5%;
+    }
+    .title {
+        margin-left: 7%;
+    }
+    footer div {
+        padding-top: 40px;
+    }
+}
