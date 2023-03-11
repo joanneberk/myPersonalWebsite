@@ -167,7 +167,17 @@ footer div {
     padding-left: 5%;
     padding-right:5%;
     color: white;
-    /* border: solid white 3px; */
+}
+
+.flex2{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;    
+    padding-left: 5%;
+    padding-right:5%;
+    color: white;
 }
 
 .title {
@@ -177,6 +187,15 @@ footer div {
 }
 
 .title2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-bottom: 50px;
+}
+
+.title3 {
     color:white;
     text-align: center;
     font-size: 24px;
@@ -200,6 +219,27 @@ footer div {
 }
 
 .portButton:hover{
+    background-color:rgb(176, 73, 73);
+    box-shadow: 0 0.5em 0.5em -.4em white;
+    transform: translatey(-.25em);
+    cursor: pointer;
+}
+
+.portButton2 {
+    background-color:rgb(208, 86, 86); 
+    text-transform: uppercase; 
+    font-size: 20px; 
+    font-weight: 600;
+    padding: 10px 100px;
+    margin-left: 40%; 
+    margin-top: 2%;
+    color: white;
+    transition: background-color .25s, box-shadow .25s, transform .25s;
+    border: none;
+    border-radius: 8px;
+}
+
+.portButton2:hover{
     background-color:rgb(176, 73, 73);
     box-shadow: 0 0.5em 0.5em -.4em white;
     transform: translatey(-.25em);
@@ -282,4 +322,62 @@ footer div {
     box-shadow: 0 0.5em 0.5em -.4em white;
     transform: translatey(-.2em);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .joanne h1 {
+        font-size: 40px;
+    }
+    .contact{
+        width: 300px;
+        height: 200px;
+        font-size: 10px;
+    }
+    .specialty{
+        width: 350px;
+        margin-left: -175px;
+    }
+
+    .specialty2{
+        width: 350px;
+    }
+
+    .title3{
+        margin-top: 385px;
+    }
+    .portButton{
+        font-size: 11px;
+        margin-left: 21%;
+    }
+    .contact{
+        margin-top: -50px;
+        text-align: center;
+    }
+    .contact2{
+        padding-bottom: 40px;
+        padding-right: 12%;
+    }
+    .portButton2{
+        padding-left:-40px;
+        font-size: 10px;
+        margin-right: 100px;
+    }
+    .portImgBlock{
+        margin-bottom: 5%;
+    }
+    .flex2{
+        flex-direction: column;
+    }
+    .relative{
+        margin-top:  50px;
+        width:90%;
+        height: 90%;
+    }
+    .inner1{
+        margin-left: 2%;
+    }
+    .inner1 h4, h3{
+        text-align: center;
+
+    }
 }
