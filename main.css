@@ -333,6 +333,9 @@ footer div {
         width: 300px;
         height: 200px;
         font-size: 10px;
+        margin-top: -90px;
+        text-align: center;
+        margin-left: 13%;
     }
     .specialty{
         width: 350px;
@@ -344,17 +347,14 @@ footer div {
     }
 
     .title3{
-        margin-top: 385px;
+        margin-top: 500px;
+        margin-bottom: -55px;
     }
     .portButton{
         font-size: 11px;
         margin-left: 20%;
     }
-    .contact{
-        margin-top: -90px;
-        text-align: center;
-        margin-left: 13%;
-    }
+
     .contact2{
         padding-bottom: 40px;
     }
@@ -371,15 +371,18 @@ footer div {
         flex-direction: column;
     }
     .relative{
-        margin-top:90px;
+        margin-top:160px;
         width:90%;
         height: 90%;
     }
-    .inner1{
-        margin-left: 2%;
+    .inner1 p{
+        margin-left: 3%;
     }
     .inner1 h4, h3{
         text-align: center;
+    }
+    .inner1 h3{
+        font-size: 30px;
     }
     footer div {
         padding-top: 40px;
@@ -387,13 +390,11 @@ footer div {
     .headshot{
         width: 100%;
         float: left;
-        margin-left: 4%;
+        margin-left: 6%;
     }
-    .inner2{
-        padding-left: 12%;
-    }
+
     div img + div {
-        left: 1px;
+        left: 8px;
         width: 98%;
     }
 }
