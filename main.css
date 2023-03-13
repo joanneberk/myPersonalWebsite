@@ -347,7 +347,7 @@ footer div {
     }
 
     .title3{
-        margin-top: 500px;
+        margin-top: 465px;
         margin-bottom: -55px;
     }
     .portButton{
@@ -371,18 +371,19 @@ footer div {
         flex-direction: column;
     }
     .relative{
-        margin-top:160px;
+        margin-top:110px;
         width:90%;
         height: 90%;
     }
     .inner1 p{
-        margin-left: 3%;
+        text-align: left; 
+        margin-left: 6px;
     }
     .inner1 h4, h3{
         text-align: center;
     }
     .inner1 h3{
-        font-size: 30px;
+        font-size: 31px;
     }
     footer div {
         padding-top: 40px;
@@ -394,7 +395,7 @@ footer div {
     }
 
     div img + div {
-        left: 8px;
+        left: 9px;
         width: 98%;
     }
 }
