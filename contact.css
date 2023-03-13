@@ -186,11 +186,13 @@ label {
         text-align: center;
     }
     #messageHead{
-        font-size: 97%;
-        margin-left: 60px;
+        font-size: 98%;
+        margin-left: 94px;
+        margin-bottom: 10px;
     }
     label{
         font-size: 90%;
+        margin-left: 40px;
     }
     .submitButton {
         font-size: 80%;
@@ -200,5 +202,15 @@ label {
     }
     .background{
         margin-bottom:-85px;
+    }
+    .messageBox{
+        width: 80%;
+    }
+    input{
+        width: 80%;
+    }
+    .contactForm{
+        margin-top: 7em;
+        width: 95%;
     }
 }

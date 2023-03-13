@@ -93,11 +93,11 @@ header ul li a:hover,header ul li a.active{
 }
 
 .headshot {
-    width: 100%;
+    width: 60%;
     height: 380.25px;
     object-fit: cover;
-    object-position: -5% 20%;
-    float:left;
+    object-position: 46% 20%;
+    float:right;
     opacity: 0.98;
     border-radius: 24px 0px;
 
@@ -130,7 +130,7 @@ header ul li a:hover,header ul li a.active{
     padding-top: 100px;
     justify-content: center;
     padding-left: 5%;
-    padding-right:5%;
+    padding-right:12%;
 }
 
 div img + div {
@@ -278,7 +278,7 @@ footer div {
     padding-right:5%;
     color: white;
     border: solid white 2px;
-    margin-left: 16%;
+    margin-left: 19%;
     border-radius: 12px;
     font-size: 20px;
 }
@@ -347,7 +347,7 @@ footer div {
     }
     .portButton{
         font-size: 11px;
-        margin-left: 21%;
+        margin-left: 20%;
     }
     .contact{
         margin-top: -90px;
@@ -355,7 +355,7 @@ footer div {
     }
     .contact2{
         padding-bottom: 40px;
-        padding-right: 12%;
+        padding-right: 27%;
     }
     .portButton2{
         padding-left:-40px;
@@ -369,7 +369,7 @@ footer div {
         flex-direction: column;
     }
     .relative{
-        margin-top:  50px;
+        margin-top:90px;
         width:90%;
         height: 90%;
     }
@@ -381,5 +381,17 @@ footer div {
     }
     footer div {
         padding-top: 40px;
+    }
+    .headshot{
+        width: 100%;
+        float: left; 
+        margin-left: 4%;
+    }
+    .inner2{
+        padding-left: 12%;
+    }
+    div img + div {
+        left: 1px;
+        width: 98%;
     }
 }
