@@ -63,7 +63,7 @@ header ul li a:hover,header ul li a.active{
     justify-content: center;
     color: white;
     font-weight: 600;
-    
+
 
     background-attachment: fixed;
     background-image: url("backgroundimage.png");
@@ -163,7 +163,7 @@ footer div {
     width:100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     padding-left: 5%;
     padding-right:5%;
     color: white;
@@ -174,7 +174,7 @@ footer div {
     width:100%;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
     padding-left: 5%;
     padding-right:5%;
     color: white;
@@ -205,12 +205,12 @@ footer div {
 }
 
 .portButton {
-    background-color:rgb(208, 86, 86); 
-    text-transform: uppercase; 
-    font-size: 20px; 
+    background-color:rgb(208, 86, 86);
+    text-transform: uppercase;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 100px;
-    margin-left: 40%; 
+    margin-left: 40%;
     margin-top: 2%;
     color: white;
     transition: background-color .25s, box-shadow .25s, transform .25s;
@@ -226,12 +226,12 @@ footer div {
 }
 
 .portButton2 {
-    background-color:rgb(208, 86, 86); 
-    text-transform: uppercase; 
-    font-size: 20px; 
+    background-color:rgb(208, 86, 86);
+    text-transform: uppercase;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 100px;
-    margin-left: 40%; 
+    margin-left: 40%;
     margin-top: 2%;
     color: white;
     transition: background-color .25s, box-shadow .25s, transform .25s;
@@ -247,8 +247,8 @@ footer div {
 }
 
 .portImg{
-    width: 380px; 
-    height: 283px; 
+    width: 380px;
+    height: 283px;
     object-fit: cover;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
@@ -273,20 +273,21 @@ footer div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding-left: 5%;
     padding-right:5%;
     color: white;
     border: solid white 2px;
-    margin-left: 19%;
+    margin-left: 16.5%;
     border-radius: 12px;
     font-size: 20px;
 }
 
+
 #linkedin{
     max-width: 15%;
     border-radius: 22px;
-    display: block; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
     filter: invert(58%) sepia(0%) saturate(0%) hue-rotate(356deg) brightness(98%) contrast(92%);
@@ -299,12 +300,12 @@ footer div {
 }
 
 @keyframes linkedin {
-    20% { 
-        transform: rotate(0deg); 
-    } 
-    40%{ 
-        transform: rotate(10deg); 
-    } 
+    20% {
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(10deg);
+    }
     60%{
         transform: rotate(0deg);
     }
@@ -314,7 +315,7 @@ footer div {
     100%{
         transform: rotate(0deg);
     }
-    
+
 }
 
 #linkedin:hover{
@@ -352,11 +353,12 @@ footer div {
     .contact{
         margin-top: -90px;
         text-align: center;
+        margin-left: 13%;
     }
     .contact2{
         padding-bottom: 40px;
-        padding-right: 27%;
     }
+
     .portButton2{
         padding-left:-40px;
         font-size: 10px;
@@ -384,7 +386,7 @@ footer div {
     }
     .headshot{
         width: 100%;
-        float: left; 
+        float: left;
         margin-left: 4%;
     }
     .inner2{
